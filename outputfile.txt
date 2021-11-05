@@ -1,0 +1,41 @@
+    1  git status
+    2  git add .
+    3  git status
+    4  git status
+    5  git add .
+    6  git status
+    7  git commit -m "local commit"
+    8  git push
+    9  echo "# test2" >> README.md
+   10  git init
+   11  git status
+   12  echo "# test2" >> README.md
+   13  git status
+   14  git add .
+   15  git init
+   16  git status
+   17  git add .
+   18  git status
+   19  git commit -m "file add"
+   20  git status
+   21  git push
+   22  git remote add origin git@github.com:gylmd/test2.git
+   23  git push
+   24  git push -u origin master
+   25  git pull
+   26  git branch my1
+   27  git status
+   28  git checkout my1
+   29  git status
+   30  git status
+   31  git add .
+   32  git status
+   33  git commit -m "branche 2 "
+   34  git status
+   35  git push
+   36  git push origin my1
+   37  git push
+   38  SomeCommand > SomeFile.txt  
+   39  command | tee ~/outputfile.txt
+   40  history
+   41  history  | tee outputfile.txt
